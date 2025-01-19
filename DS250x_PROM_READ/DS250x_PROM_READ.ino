@@ -1,6 +1,6 @@
 #include <OneWire.h>
 
-#define ONE_WIRE_BUS 10  // Define the digital pin connected to DS2430A
+#define ONE_WIRE_BUS 8  // Define the digital pin connected to DS2430A
 
 OneWire ds(ONE_WIRE_BUS);
 
@@ -42,10 +42,11 @@ void loop() {
     Serial.print("EEPROM Data: ");
     for (byte i = 0; i < 32; i++) {  // Read all 32 bytes
         data[i] = ds.read();
+        Serial.print("0x");
         Serial.print(data[i], HEX);
-        Serial.print(" ");
+        Serial.print(" , ");
     }
     Serial.println("\n");
-
-    delay(5000);
+    //10s wait
+    delay(10000);
 }
