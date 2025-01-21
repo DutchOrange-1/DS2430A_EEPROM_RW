@@ -3,9 +3,16 @@ EEPROM Read Write Scripts for Arduino.
 This is made for the DS2430A 256-bit 1-Wire EEPROM, commonly found in old ink chips from Mimaki. 
 These scripts can be used to read and write the 32 Hex values to the EEPROM. 
 
+This is to be a replacement for the MikaChip V1.2 / V2. 
+
 # Workings
 This makes use of the OneWire.h library from Arduino for communication. 
-This data was found when using the Mimaki JV5-320**D**S
+This data was found when using the Mimaki JV5-320**D**S. 
+Functionality is quite simple, following the DS2430A datasheet all the codes can be found on how to read, write, copy etc. 
+For writing to the EEPROM, the 8-byte scratch pad reserves 2 bytes at the start, so only has 6 available ones. 
+Due to this, one needs to write to the EEPROM 8 times, to fill up all 32 bytes on it. I had some errors occur when using 6 Bytes, 
+hence I moved to 4 instead. This is the reason for the [8][4] 2D array for the data. I recomend making a back up of the original. 
+
 
 # Known data that can be changed. 
 Mimaki keeps a lot of information to themselves. 
@@ -59,3 +66,5 @@ From my limited reverse engineering, I was able to find the following:
 | LF140 | 3C | 
 
 Please, if you know any other ink Hex values, please open an issue tab. 
+
+
