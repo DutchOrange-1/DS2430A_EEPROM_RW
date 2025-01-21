@@ -22,34 +22,34 @@ From my limited reverse engineering, I was able to find the following:
 | -----------|--------------|-------|
 | 1 | Ink type | Limited Inks know, check the bottom of page |
 | 2 | Unknown | Number is same across all inks of the same machine | 
-| 3
+| 3 | Unknown |
 | 4 | Unknown | Number is same across all inks of the same machine | 
-| 5
-| 6
-| 7
-| 8
-| 9
-| 10
-| 11
-| 12
+| 5 | Unknown |
+| 6 | Unknown |
+| 7 | Unknown |
+| 8 | Unknown |
+| 9 | Unknown |
+| 10 | Unknown |
+| 11 | Unknown |
+| 12 | Unknown |
 | 13 | Expiary date | Make sure to change this before it expires. Change the number only slightly 18-> 19, or 20->21. I suspect these numbers represent the time after manufacture | 
-| 14
+| 14 | Unknown |
 | 15 | Unknown | Number is same across all inks of the same machine | 
 | 16 | Unknown | Number is same across all inks of the same machine | 
 | 17 | Unknown | Number is same across all inks of the same machine | 
-| 18
-| 19
-| 20
-| 21
+| 18 | Unknown |
+| 19 | Unknown |
+| 20 | Unknown |
+| 21 | Unknown |
 | 22 | Unknown | Number is same across all inks of the same machine (All Zeros) | 
-| 23
-| 24
+| 23 | Unknown |
+| 24 | Unknown |
 | 25 | Unknown | Number is same across all inks of same machine (All 20) | 
 | 26 | Unknown | Number is same across all inks of same machine (All 20) | 
 | 27 | Unknown | Number is same across all inks of same machine (All Zeros) | 
 | 28 | Unknown | Number is same across all inks of same machine (All Zeros) | 
-| 29
-| 30
+| 29 | Unknown |
+| 30 | Unknown |
 | 31 | Ink Level | I recommend just increasing this value by small amounts | 
 | 32
 
