@@ -44,10 +44,10 @@ From my limited reverse engineering, I was able to find the following:
 | 22 | Unknown | Number is same across all inks of the same machine (All Zeros) | 
 | 23 | Unknown |
 | 24 | Unknown |
-| 25 | Unknown | Number is same across all inks of same machine (All 20) | 
-| 26 | Unknown | Number is same across all inks of same machine (All 20) | 
-| 27 | Unknown | Number is same across all inks of same machine (All Zeros) | 
-| 28 | Unknown | Number is same across all inks of same machine (All Zeros) | 
+| 25 | Unknown | Number is same across all inks of the same machine (All 20) | 
+| 26 | Unknown | Number is same across all inks of the same machine (All 20) | 
+| 27 | Unknown | Number is same across all inks of the same machine (All Zeros) | 
+| 28 | Unknown | Number is same across all inks of the same machine (All Zeros) | 
 | 29 | Unknown |
 | 30 | Unknown |
 | 31 | Ink Level | I recommend just increasing this value by small amounts | 
@@ -65,6 +65,11 @@ From my limited reverse engineering, I was able to find the following:
 | SS21 | 20 |
 | LF140 | 3C | 
 
-Please, if you know any other ink Hex values, please open an issue tab. 
+If you know any other ink Hex values, please open an issue tab. 
+
+# Notes
+1. Many of the values, like Date, and ink levels, when converting to ASCII or decimal values make no sense. Nothing relates, not patterns etc. So if anyone knows why this is, would be awsome. 
+2. 
+
 
 
