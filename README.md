@@ -4,6 +4,7 @@ This is made for the DS2430A 256-bit 1-Wire EEPROM, commonly found in old ink ch
 These scripts can be used to read and write the 32 Hex values to the EEPROM. 
 
 This is to be a replacement for the MikaChip V1.2 / V2. 
+Can be used to reprogram Mimaki ink chips. 
 
 # Workings
 This makes use of the OneWire.h library from Arduino for communication. 
